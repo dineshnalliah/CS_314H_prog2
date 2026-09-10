@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<!-- where your code is -->
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+
+	<!-- the default java container -->
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	
+	<!-- the included junit package -->
+	<classpathentry kind="lib" path="lib/junit-platform-console-standalone-1.10.0.jar"/>
+
+	<!-- the default junit package -->
+	<!-- <classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/> -->
+
+	<!-- class files go here -->
+	<classpathentry kind="output" path="bin"/>
+</classpath>
