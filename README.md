@@ -1,16 +1,16 @@
 # Submission Info
 
-Name:
+Name: Dinesh Nalliah
 
-EID:
+EID: dkn547
 
-Email:
+Email: dkn547@my.utexas.edu
 
-Time:
+Time: 09/18/2026
 
-Collaborators:
+Collaborators: N/A
 
-Comments:
+Comments: N/A
 
 
 # Starter code info

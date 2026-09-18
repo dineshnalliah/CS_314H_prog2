@@ -11,10 +11,10 @@
             "mainClass": "assignment.RandomWriter",
             "projectName": "prog2",
             "args": [
-                "test_books/CatInTheHat.txt",
-                "output.txt",
-                "10",
-                "1000"
+                "test_books/OneFishTwoFish.txt",
+                "output2.txt",
+                "3",
+                "200"
             ]
         }
     ]

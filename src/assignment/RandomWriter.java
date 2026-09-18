@@ -25,10 +25,13 @@ public class RandomWriter implements TextProcessor {
     private final Random RNG = new Random();
 
     public static void main(String[] args) {
+
+      // least cost check, correct amount of arguments
       if (args.length != 4) {
         System.err.println("Usage: RandomWriter <source> <result> <k> <length>");
         return;
       }
+      // validating values of k and length
       int k, length;
       try {
         k = Integer.parseInt(args[2]);
@@ -41,6 +44,7 @@ public class RandomWriter implements TextProcessor {
         System.err.println("k and length must be non-negative");
         return;
       }
+      // finally, build the RandomWriter
       try {
         TextProcessor p = createProcessor(k);
         p.readText(args[0]);
